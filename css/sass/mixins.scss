@@ -1,0 +1,36 @@
+@import "variables.scss";
+
+@function get-color($color){
+	@return unquote(map-get($colors, $color));
+}
+
+@mixin font-family($font){
+  font-family: unquote(map-get($ihg-fonts, $font));
+}
+
+@function calc-percent($target, $container) {
+  @return ($target / $container) * 100%;
+}
+@function calc-rem($size) {
+  @return ($size / $base-font-size) + rem;
+}
+@function calc-em($lineheight, $size) {
+  @return ($lineheight / $size) + em;
+}
+@function shorthand-props($param1, $param2, $param3, $param4, $container: 940) {
+	@return calc-rem($param1)+' '+ calc-percent($param2, $container)+' '+ calc-rem($param3)+' '+ calc-percent($param4, $container);
+}
+
+@mixin clearfix {
+	display: block;
+	overflow: hidden;
+	clear: both;
+	content: "";
+}
+
+@mixin background-image($name, $size:false){
+    background-image: url(#{$image-path}/#{$name});
+    @if($size){
+        background-size: $size;
+    }
+ }

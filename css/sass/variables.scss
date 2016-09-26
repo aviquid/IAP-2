@@ -1,0 +1,49 @@
+//colors
+$colors: (
+	white : '#fff',
+	black : '#000',
+	red : '#d52728', //red-btns
+	blue : '#64b4d4', //username-password-border
+	light-grey : '#414141', //supervisee-list
+	dark-grey : '#333', //supervisor-list
+	lighter-grey : '#4f4f4f', //superuser-section
+	darker-grey : '#262626',  //superuser-section
+	silver : '#d4d4d4', //supervisor-hover 
+	light-silver : '#e4e3e3', //header
+	dim-grey : '#666', //supervisor-modal & supervisee-modal
+	light-black : '#202424', //modal-background
+);
+
+$ihg-fonts: (
+  font1: '\'HelveticaNeueLTStd-Lt\', \'sans-serif\'',
+  font2: '\'HelveticaNeueLTStd-UltLt\', \'sans-serif\'',
+  font3: '\'HelveticaLTStd-Light\', \'sans-serif\'',
+  font4: '\'HelveticaNeueLTStd-ThIt\', \'sans-serif\'',
+  font5: '\'HelveticaNeue-Thin\', \'sans-serif\'',
+  font6: '\'Graphik-Bold\', \'sans-serif\'',
+  font7: '\'Graphik-SemiboldItalic\', \'sans-serif\'',
+  font8: '\'Graphik-Semibold\', \'sans-serif\'',
+  font9: '\'Graphik-MediumItalic\', \'sans-serif\'',
+  font10: '\'Graphik-Medium\', \'sans-serif\'',
+  font11: '\'Graphik-RegularItalic\', \'sans-serif\'',
+  font12: '\'Graphik-Regular\', \'sans-serif\'',
+  font13: '\'Graphik-LightItalic\', \'sans-serif\'',
+  font14: '\'Graphik-Light\', \'sans-serif\'',
+  font15: '\'Graphik-ExtralightItalic\', \'sans-serif\'',
+  font16: '\'Graphik-Extralight\', \'sans-serif\'',
+  font17: '\'Graphik-ThinItalic\', \'sans-serif\'',
+  font18: '\'Graphik-Thin\', \'sans-serif\'',
+  font19: '\'Chronicle-Display-Black-Italic\', Georgia, \'sans-serif\'',
+  font20: '\'Chronicle-Display-Bold-Italic\', Georgia, \'sans-serif\'',
+  font21: '\'Chronicle-Display-Italic\', \'sans-serif\''
+  );
+
+// Viewport breakpoints
+  $mobile: "(min-width: 320px) and (max-width: 767px)";
+  $tablet: "(min-width: 768px) and (max-width: 991px)";
+  $mobile-landscape: "(min-width: 320px) and (max-width: 767px) and (orientation: landscape)";
+  $tablet-landscape: "(min-width: 768px) and (max-width: 991px) and (orientation: landscape)";
+
+//others
+$image-path : '../img/';
+$base-font-size : 10;

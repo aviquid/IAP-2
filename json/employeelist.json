@@ -1,6 +1,6 @@
 {
 	"100001" : {
-		"supervisorList" : ["200001","200002","200003","200004"],
+		"list" : ["200001","200002","200003","200004"],
 		"name" : "Nisheed Jagadeesh",
 		"userName" : "nisheed",
 		"password" : "sapient",
@@ -8,33 +8,11 @@
 		"userType" : "Super User",
 		"businessUnit" : "Bangalore",
 		"role" : "Vice President",
-		"unit" : "Technical Management",
+		"unit" : "Technical Management"
 	},
-	"200001" : {
-		"superviseeList" : ["300001","300002","300003","300004","300005","300006","300007"],
-		"name" : "Vidhya Anand",
-		"userName" : "vidhya",
-		"password" : "sapient",
-		"oracleId" : "200001",
-		"userType" : "Supervisor",
-		"businessUnit" : "Gurgaon",
-		"role" : "President",
-		"unit" : "Technical Management",
-	},
-	"200002":{"name":"Keshav Mesta"},
-	"200003":{"name":"Shafeeq Rahman"},
-	"200004":{"name":"Linga Raju"},
-
-		"300001":{"name":"Salmaan Khan"},
-		"300002":{"name":"Shahrukh Khan"},
-		"300003":{"name":"Aamir Khan"},
-		"300004":{"name":"Saif Ali Khan"},
-		"300005":{"name":"Gauri Khan"},
-		"300006":{"name":"Arbaaz Khan"},
-		"300007":{"name":"Saroj Khan"},
 
 	"100002" : {
-		"supervisorList" : ["200005","200006","200007"],
+		"list" : ["200005","200006","200007"],
 		"name" : "Sidhartha Ghose",
 		"userName" : "sidhartha",
 		"password" : "sapient",
@@ -42,10 +20,27 @@
 		"userType" : "Super User",
 		"businessUnit" : "London",
 		"role" : "Senior Program Manager",
-		"unit" : "Program Management",
+		"unit" : "Program Management"
 	},
+
+
+	"200001" : {
+		"list" : ["300001","300002","300003","300004","300005","300006","300007"],
+		"name" : "Vidhya Anand",
+		"userName" : "vidhya",
+		"password" : "sapient",
+		"oracleId" : "200001",
+		"userType" : "Supervisor",
+		"businessUnit" : "Gurgaon",
+		"role" : "President",
+		"unit" : "Technical Management"
+	},
+	"200002":{"name":"Keshav Mesta"},
+	"200003":{"name":"Shafeeq Rahman"},
+	"200004":{"name":"Linga Raju"},
+
 	"200005" : {
-		"superviseeList" : ["300008","300009","300010","300011","300012","300013","300014","300015"],
+		"list" : ["300008","300009","300010","300011","300012","300013","300014","300015"],
 		"name" : "Amitha Sivasankaran",
 		"userName" : "amitha",
 		"password" : "sapient",
@@ -53,18 +48,30 @@
 		"userType" : "Superviser",
 		"businessUnit" : "Boston",
 		"role" : "Program Manager",
-		"unit" : "Program Management",
+		"unit" : "Program Management"
 	},
 	"200006":{"name":"Sidharth Taneja"},
-	"200007":{"name":"Mohammed Fazal"},
+	"200007":{"name":"Mohammed Fazal"}
+	,	
 
-		"300008":{"name":"Shahid Kapoor"},
-		"300009":{"name":"Kareena Kapoor"},
-		"300010":{"name":"Karishma Kapoor"},
-		"300011":{"name":"Ranbir Kapoor"},
-		"300012":{"name":"Sonam Kapoor"},
-		"300013":{"name":"Rishi Kapoor"},
-		"300014":{"name":"Tushar Kapoor"},
-		"300015":{"name":"Anil Kapoor"},
+	"300001":{"name":"Apoorv Agrawal"},
+	"300002":{"name":"Nishchitha H V Prasad"},
+	"300003":{"name":"Avinash Murugesh"},
+	"300004":{"name":"Vignesh Bhagwath"},
+	"300005":{"name":"Ruhi Chandra"},
+	"300006":{"name":"Ayan Dalal"},
+	"300007":{"name":"Vishaka Nagrajan"},
+	"300008":{"name":"Megha Vijay"},
+	"300009":{"name":"Sai Sree Ram Dalli"},
+	"300010":{"name":"Sairam Chappidi"},
+	"300011":{"name":"Vimal Raghuvanshi"},
+	"300012":{"name":"Saloni Luhadia"},
+	"300013":{"name":"Arkadyuti Sarkar"},
+	"300014":{"name":"Abhay Singh"},
+	"300015":{"name":"Prakash Saripaka"},
 
+	"unalloclist " : {
+		"supervisor" : ["200004"],
+		"supervisee" : ["300007","300009"]
+	}
 }
